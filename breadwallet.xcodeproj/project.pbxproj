@@ -4515,8 +4515,8 @@
 					"$(inherited)",
 				);
 				HEADER_SEARCH_PATHS = (
-					"${SRCROOT}/Modules/breadwallet-core",
-					"${SRCROOT}/Modules/breadwallet-core/secp256k1",
+					"${SRCROOT}/Modules/digibytewallet-core",
+					"${SRCROOT}/Modules/digibytewallet-core/secp256k1",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -4529,8 +4529,8 @@
 				CLANG_WARN_COMMA = NO;
 				DEVELOPMENT_TEAM = 4R7S6N88W9;
 				HEADER_SEARCH_PATHS = (
-					"${SRCROOT}/Modules/breadwallet-core",
-					"${SRCROOT}/Modules/breadwallet-core/secp256k1",
+					"${SRCROOT}/Modules/digibytewallet-core",
+					"${SRCROOT}/Modules/digibytewallet-core/secp256k1",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -5192,8 +5192,8 @@
 					"BITCOIN_TESTNET=1",
 				);
 				HEADER_SEARCH_PATHS = (
-					"${SRCROOT}/Modules/breadwallet-core",
-					"${SRCROOT}/Modules/breadwallet-core/secp256k1",
+					"${SRCROOT}/Modules/digibytewallet-core",
+					"${SRCROOT}/Modules/digibytewallet-core/secp256k1",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -5494,8 +5494,8 @@
 					"BITCOIN_TESTNET=1",
 				);
 				HEADER_SEARCH_PATHS = (
-					"${SRCROOT}/Modules/breadwallet-core",
-					"${SRCROOT}/Modules/breadwallet-core/secp256k1",
+					"${SRCROOT}/Modules/digibytewallet-core",
+					"${SRCROOT}/Modules/digibytewallet-core/secp256k1",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -5783,8 +5783,8 @@
 				CLANG_WARN_COMMA = NO;
 				DEVELOPMENT_TEAM = 4R7S6N88W9;
 				HEADER_SEARCH_PATHS = (
-					"${SRCROOT}/Modules/breadwallet-core",
-					"${SRCROOT}/Modules/breadwallet-core/secp256k1",
+					"${SRCROOT}/Modules/digibytewallet-core",
+					"${SRCROOT}/Modules/digibytewallet-core/secp256k1",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
