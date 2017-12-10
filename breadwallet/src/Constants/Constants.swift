@@ -33,13 +33,14 @@ struct C {
     static let secondsInDay: TimeInterval = 86400
     static let maxMoney: UInt64 = 21000000*100000000
     static let satoshis: UInt64 = 100000000
-    static let walletQueue = "com.breadwallet.walletqueue"
-    static let btcCurrencyCode = "BTC"
+    static let walletQueue = "com.digibytewallet.walletqueue"
+    static let btcCurrencyCode = "DGB"
     static let null = "(null)"
     static let maxMemoLength = 250
-    static let feedbackEmail = "feedback@breadwallet.com"
-    static let reviewLink = "https://itunes.apple.com/app/breadwallet-bitcoin-wallet/id885251393?action=write-review"
+    static let feedbackEmail = "info@digibyte.io"
+	//FIXME: The reviewLink must be updated with the official Digibyte Wallet iTunes Connect information
+    static let reviewLink = "https://itunes.apple.com/app/digibytewallet-digibyte-wallet/id885251393?action=write-review"
     static var standardPort: Int {
-        return E.isTestnet ? 18333 : 8333
+		return E.isTestnet ? 12024 : 8333 //FIXME: These ports need peer review
     }
 }

@@ -5,37 +5,37 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Bread</string>
+	<string>DigiByte</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
 			<key>CFBundleTypeIconFiles</key>
 			<array/>
 			<key>CFBundleTypeName</key>
-			<string>Bitcoin Payment Request</string>
+			<string>DigiByte Payment Request</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>bitcoin.paymentrequest</string>
+				<string>digibyte.paymentrequest</string>
 			</array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFiles</key>
 			<array/>
 			<key>CFBundleTypeName</key>
-			<string>Bitcoin Payment</string>
+			<string>DigiByte Payment</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>bitcoin.payment</string>
+				<string>digibyte.payment</string>
 			</array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFiles</key>
 			<array/>
 			<key>CFBundleTypeName</key>
-			<string>Bitcoin Payment ACK</string>
+			<string>DigiByte Payment ACK</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>bitcoin.paymentack</string>
+				<string>digibyte.paymentack</string>
 			</array>
 		</dict>
 	</array>
@@ -57,20 +57,20 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>bitcoin</string>
+			<string>digibyte</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>bitcoin</string>
+				<string>digibyte</string>
 			</array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>org.voisine.bread</string>
+			<string>org.digibytefoundation.digibytewallet</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>bread</string>
+				<string>digibytewallet</string>
 			</array>
 		</dict>
 		<dict>
@@ -143,9 +143,9 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>Bitcoin Payment Request</string>
+			<string>DigiByte Payment Request</string>
 			<key>UTTypeIdentifier</key>
-			<string>bitcoin.paymentrequest</string>
+			<string>digibyte.paymentrequest</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.mime-type</key>
@@ -158,13 +158,13 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>Bitcoin Payment</string>
+			<string>DigiByte Payment</string>
 			<key>UTTypeIdentifier</key>
-			<string>bitcoin.payment</string>
+			<string>digibyte.payment</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.mime-type</key>
-				<string>application/bitcoin-payment</string>
+				<string>application/digibyte-payment</string>
 			</dict>
 		</dict>
 		<dict>
@@ -173,13 +173,13 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>Bitcoin Payment ACK</string>
+			<string>DigiByte Payment ACK</string>
 			<key>UTTypeIdentifier</key>
-			<string>bitcoin.paymentack</string>
+			<string>digibyte.paymentack</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.mime-type</key>
-				<string>application/bitcoin-paymentack</string>
+				<string>application/digibyte-paymentack</string>
 			</dict>
 		</dict>
 	</array>
