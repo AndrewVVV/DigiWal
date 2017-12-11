@@ -7,3 +7,4 @@
 [submodule "Modules/digibytewallet-core"]
 	path = Modules/digibytewallet-core
 	url = https://github.com/Dajiban/digibytewallet-core.git
+	branch = master
