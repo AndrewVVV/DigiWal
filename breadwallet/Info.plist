@@ -77,10 +77,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>bitid</string>
+			<string>digiid</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>bitid</string>
+				<string>digiid</string>
 			</array>
 		</dict>
 	</array>
@@ -149,7 +149,7 @@
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.mime-type</key>
-				<string>application/bitcoin-paymentrequest</string>
+				<string>application/digibyte-paymentrequest</string>
 			</dict>
 		</dict>
 		<dict>
