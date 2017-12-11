@@ -25,7 +25,7 @@ enum S {
             case 8:
                 return "DGB\(S.Symbols.narrowSpace)(\(S.Symbols.btc))"
             default:
-                return "dbits\(S.Symbols.narrowSpace)(\(S.Symbols.bits))"
+                return "DBits\(S.Symbols.narrowSpace)(\(S.Symbols.bits))"
             }
         }
     }
