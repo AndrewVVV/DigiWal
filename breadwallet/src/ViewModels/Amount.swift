@@ -61,7 +61,7 @@ struct Amount {
         format.numberStyle = .currency
         format.generatesDecimalNumbers = true
         format.negativeFormat = format.positiveFormat.replacingCharacters(in: format.positiveFormat.range(of: "#")!, with: "-#")
-        format.currencyCode = "XBT"
+        format.currencyCode = "DGB"
 
         switch maxDigits {
         case 2: // dgBits
@@ -147,7 +147,7 @@ struct DisplayAmount {
         format.numberStyle = .currency
         format.generatesDecimalNumbers = true
         format.negativeFormat = format.positiveFormat.replacingCharacters(in: format.positiveFormat.range(of: "#")!, with: "-#")
-        format.currencyCode = "XBT"
+        format.currencyCode = "DGB"
 
         switch state.maxDigits {
         case 2:
