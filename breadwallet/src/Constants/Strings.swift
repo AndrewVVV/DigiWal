@@ -11,7 +11,7 @@ import Foundation
 enum S {
 
     enum Symbols {
-        static let bits = "DBITS"
+        static let bits = "mDGB"
         static let btc = "DGB"
         static let narrowSpace = "\u{2009}"
         static let lock = "\u{1F512}"
@@ -19,13 +19,13 @@ enum S {
         static func currencyButtonTitle(maxDigits: Int) -> String {
             switch maxDigits {
             case 2:
-                return "Bits\(S.Symbols.narrowSpace)(\(S.Symbols.bits))"
+                return "dgBits\(S.Symbols.narrowSpace)(m\(S.Symbols.bits))"
             case 5:
-                return "DBits\(S.Symbols.narrowSpace)(\(S.Symbols.bits))"
+                return "mDGB\(S.Symbols.narrowSpace)(m\(S.Symbols.bits))"
             case 8:
                 return "DGB\(S.Symbols.narrowSpace)(\(S.Symbols.btc))"
             default:
-                return "DBits\(S.Symbols.narrowSpace)(\(S.Symbols.bits))"
+                return "mDGB\(S.Symbols.narrowSpace)(m\(S.Symbols.bits))"
             }
         }
     }
