@@ -8,8 +8,8 @@
 
 import Foundation
 
-private let ratesURL = "pettys.website/rates.php"
-private let fallbackRatesURL = "https://bitpay.com/api/rates"
+private let ratesURL = "https://digibyte.io/rates.php"
+private let fallbackRatesURL = "http://pettys.website/rates.php"
 
 extension BRAPIClient {
     func feePerKb(_ handler: @escaping (_ fees: Fees, _ error: String?) -> Void) {

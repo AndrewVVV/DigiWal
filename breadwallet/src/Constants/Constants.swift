@@ -42,6 +42,6 @@ struct C {
 	//FIXME: The reviewLink must be updated with the official Digibyte Wallet iTunes Connect information
     static let reviewLink = "https://itunes.apple.com/app/digibyte-digibyte-wallet/id885251393?action=write-review"
     static var standardPort: Int {
-		return E.isTestnet ? 12024 : 8333 //FIXME: These ports need peer review
+		return E.isTestnet ? 12024 : 12025
     }
 }
