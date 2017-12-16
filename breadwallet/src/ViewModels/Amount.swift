@@ -64,13 +64,13 @@ struct Amount {
         format.currencyCode = "XBT"
 
         switch maxDigits {
-        case 2: // Bits
+        case 2: // dgBits
             format.currencySymbol = "m\(S.Symbols.bits)\(S.Symbols.narrowSpace)"
             format.maximum = (C.maxMoney/C.satoshis)*100000 as NSNumber
-        case 5: // dbits
+        case 5: // mDGB
             format.currencySymbol = "m\(S.Symbols.bits)\(S.Symbols.narrowSpace)"
             format.maximum = (C.maxMoney/C.satoshis)*1000 as NSNumber
-        case 8: // digibyte
+        case 8: // DGB
             format.currencySymbol = "\(S.Symbols.btc)\(S.Symbols.narrowSpace)"
             format.maximum = C.maxMoney/C.satoshis as NSNumber
         default:

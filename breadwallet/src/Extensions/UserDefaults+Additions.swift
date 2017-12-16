@@ -58,18 +58,18 @@ extension UserDefaults {
     }
 
     //
-    // 2 - bits
-    // 5 - DBITS
+    // 2 - dgbits
+    // 5 - mDGB
     // 8 - DGB
     //
     static var maxDigits: Int {
         get {
             guard defaults.object(forKey: maxDigitsKey) != nil else {
-                return 5
+                return 8
             }
             let maxDigits = defaults.integer(forKey: maxDigitsKey)
             if maxDigits == 5 {
-                return 8 //Convert DBITS to DGB
+                return 8 //Convert mDGB to DGB
             } else {
                 return maxDigits
             }
