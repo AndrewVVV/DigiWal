@@ -102,7 +102,7 @@ enum S {
     enum JailbreakWarnings {
         static let title = NSLocalizedString("JailbreakWarnings.title", value:"WARNING", comment: "Jailbreak warning title")
         static let messageWithBalance = NSLocalizedString("JailbreakWarnings.messageWithBalance", value:"DEVICE SECURITY COMPROMISED\n Any 'jailbreak' app can access DigiByte's keychain data and steal your DigiByte! Wipe this wallet immediately and restore on a secure device.", comment: "Jailbreak warning message")
-        static let messageWithoutBalance = NSLocalizedString("JailbreakWarnings.messageWithoutBalance", value:"DEVICE SECURITY COMPROMISED\n Any 'jailbreak' app can access DigiByte's keychain data and steal your DigiByte. Please only use Bread on a non-jailbroken device.", comment: "Jailbreak warning message")
+        static let messageWithoutBalance = NSLocalizedString("JailbreakWarnings.messageWithoutBalance", value:"DEVICE SECURITY COMPROMISED\n Any 'jailbreak' app can access DigiByte's keychain data and steal your DigiByte. Please only use DigiByte on a non-jailbroken device.", comment: "Jailbreak warning message")
         static let ignore = NSLocalizedString("JailbreakWarnings.ignore", value:"Ignore", comment: "Ignore jailbreak warning button")
         static let wipe = NSLocalizedString("JailbreakWarnings.wipe", value:"Wipe", comment: "Wipe wallet button")
         static let close = NSLocalizedString("JailbreakWarnings.close", value:"Close", comment: "Close app button")
@@ -239,8 +239,8 @@ enum S {
     
     enum FaceIDSettings {
         static let title = NSLocalizedString("FaceIDSettings.title", value:"Face ID", comment: "Face ID settings view title")
-        static let label = NSLocalizedString("FaceIDSettings.label", value:"Use your face to unlock your Bread and send money up to a set limit.", comment: "Face Id screen label")
-        static let switchLabel = NSLocalizedString("FaceIDSettings.switchLabel", value:"Enable Face ID for Bread", comment: "Face id switch label.")
+        static let label = NSLocalizedString("FaceIDSettings.label", value:"Use your face to unlock your DigiByte and send money up to a set limit.", comment: "Face Id screen label")
+        static let switchLabel = NSLocalizedString("FaceIDSettings.switchLabel", value:"Enable Face ID for DigiByte", comment: "Face id switch label.")
         static let unavailableAlertTitle = NSLocalizedString("FaceIDSettings.unavailableAlertTitle", value:"Face ID Not Set Up", comment: "Face ID unavailable alert title")
         static let unavailableAlertMessage = NSLocalizedString("FaceIDSettings.unavailableAlertMessage", value:"You have not set up Face ID on this device. Go to Settings->Face ID & Passcode to set it up now.", comment: "Face ID unavailable alert message")
         static let customizeText = NSLocalizedString("FaceIDSettings.customizeText", value: "You can customize your Face ID spending limit from the %1$@.", comment: "You can customize your Face ID Spending Limit from the [TouchIdSettings.linkText gets added here as a button]")
