@@ -80,6 +80,7 @@ class ModalHeaderView : UIView {
             faq.constraint(.centerY, toView: self, constant: 0.0),
             faq.constraint(.height, constant: buttonSize),
             faq.constraint(.width, constant: buttonSize) ])
+        faq.isHidden = true // TODO: Writeup support/FAQ documentation for digibyte wallet
     }
 
     private func setColors() {
