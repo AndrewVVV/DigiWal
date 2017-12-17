@@ -67,7 +67,7 @@ class ConfirmPaperPhraseViewController : UIViewController {
             self?.dismiss(animated: true, completion: nil)
         }
 
-        // TODO: Writeup support/FAQ documentation for digibyte wallet
+        
         /*let faqButton = UIButton.buildFaqButton(store: store, articleId: ArticleIds.confirmPhrase)
         faqButton.tintColor = .white
         navigationItem.rightBarButtonItems = [UIBarButtonItem.negativePadding, UIBarButtonItem(customView: faqButton)]*/
@@ -89,7 +89,7 @@ class ConfirmPaperPhraseViewController : UIViewController {
         header.constrainTopCorners(sidePadding: 0, topPadding: 0)
         header.constrain([
             header.constraint(.height, constant: 152.0) ])
-        label.constrainBottomCorners(sidePadding: C.padding[1], bottomPadding: C.padding[2])
+        label.constrainBottomCorners(sidePadding: C.padding[3], bottomPadding: C.padding[1])
         confirmFirstPhrase.constrain([
             confirmFirstPhrase.constraint(toBottom: header, constant: 0.0),
             confirmFirstPhrase.constraint(.width, toView: view, constant: 0.0),

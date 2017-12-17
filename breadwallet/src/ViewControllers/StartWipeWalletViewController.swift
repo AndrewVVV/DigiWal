@@ -46,7 +46,7 @@ class StartWipeWalletViewController : UIViewController {
             illustration.constraint(.width, constant: 64.0),
             illustration.constraint(.height, constant: 84.0),
             illustration.constraint(.centerX, toView: header, constant: 0.0),
-            illustration.constraint(.centerY, toView: header, constant: C.padding[3]) ])
+            illustration.constraint(.centerY, toView: header, constant: E.isIPhoneX ? C.padding[5] : C.padding[3]) ])
         message.constrain([
             message.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: C.padding[2]),
             message.topAnchor.constraint(equalTo: header.bottomAnchor, constant: C.padding[2]),
