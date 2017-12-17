@@ -54,17 +54,20 @@ class AccountFooterView: UIView {
 
         send.constrain([
                 send.constraint(.leading, toView: self, constant: 0.0),
-                send.constraint(.top, toView: self, constant: C.padding[2]),
+                send.constraint(.top, toView: self, constant: 0.0),
+                send.constraint(.height, constant: C.Sizes.footerHeight),
                 NSLayoutConstraint(item: send, attribute: .width, relatedBy: .equal, toItem: self, attribute: .width, multiplier: 1.0/3.0, constant: 0.0)
             ])
         receive.constrain([
                 NSLayoutConstraint(item: receive, attribute: .leading, relatedBy: .equal, toItem: send, attribute: .trailing, multiplier: 1.0, constant: 0.0),
-                receive.constraint(.top, toView: self, constant: C.padding[2]),
+                receive.constraint(.top, toView: self, constant: 0.0),
+                receive.constraint(.height, constant: C.Sizes.footerHeight),
                 NSLayoutConstraint(item: receive, attribute: .width, relatedBy: .equal, toItem: self, attribute: .width, multiplier: 1.0/3.0, constant: 1.0)
             ])
         menu.constrain([
                 NSLayoutConstraint(item: menu, attribute: .leading, relatedBy: .equal, toItem: receive, attribute: .trailing, multiplier: 1.0, constant: 1.0),
-                menu.constraint(.top, toView: self, constant: C.padding[2]),
+                menu.constraint(.top, toView: self, constant: 0.0),
+                menu.constraint(.height, constant: C.Sizes.footerHeight),
                 NSLayoutConstraint(item: menu, attribute: .width, relatedBy: .equal, toItem: self, attribute: .width, multiplier: 1.0/3.0, constant: 1.0)
             ])
     }
