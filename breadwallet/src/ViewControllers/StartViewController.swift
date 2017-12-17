@@ -57,6 +57,7 @@ class StartViewController : UIViewController {
         view.addSubview(create)
         view.addSubview(recover)
         view.addSubview(faq)
+        faq.isHidden = true // TODO: Writeup support/FAQ documentation for digibyte wallet
     }
 
     private func addConstraints() {
@@ -64,7 +65,8 @@ class StartViewController : UIViewController {
         let yConstraint = NSLayoutConstraint(item: logo, attribute: .centerY, relatedBy: .equal, toItem: view, attribute: .centerY, multiplier: 0.5, constant: 0.0)
         logo.constrain([
             logo.constraint(.centerX, toView: view, constant: nil),
-            yConstraint])
+            yConstraint,
+            logo.constraint(.height, constant: C.Sizes.logoHeight) ])
         message.constrain([
             message.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: C.padding[2]),
             message.topAnchor.constraint(equalTo: logo.bottomAnchor, constant: C.padding[3]),

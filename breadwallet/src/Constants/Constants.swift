@@ -25,6 +25,7 @@ struct C {
         static let headerHeight: CGFloat = 48.0
         static let largeHeaderHeight: CGFloat = 220.0
         static let logoAspectRatio: CGFloat = 125.0/417.0
+        static let logoHeight: CGFloat = 125.0/3.0
     }
     static var defaultTintColor: UIColor = {
         return UIView().tintColor
