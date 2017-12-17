@@ -66,7 +66,7 @@ class LoginViewController : UIViewController, Subscriber, Trackable {
         button.accessibilityLabel = S.UnlockScreen.touchIdText
         return button
     }()
-    private let subheader = UILabel(font: .customBody(size: 16.0), color: .darkText)
+    private let subheader = UILabel(font: .customBody(size: 16.0), color: .white)
     private var pinPadPottom: NSLayoutConstraint?
     private var topControlTop: NSLayoutConstraint?
     private var unlockTimer: Timer?

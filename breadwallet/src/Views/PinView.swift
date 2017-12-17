@@ -36,10 +36,11 @@ class PinView : UIView {
         switch style {
         case .create:
             unFilled = (0...(length-1)).map { _ in Circle(color: .borderGray) }
+            filled = (0...(length-1)).map { _ in Circle(color: .black) }
         case .login:
             unFilled = (0...(length-1)).map { _ in Circle(color: .white) }
+            filled = (0...(length-1)).map { _ in Circle(color: .gradientStart) }
         }
-        filled = (0...(length-1)).map { _ in Circle(color: .black) }
         super.init(frame: CGRect())
         setupSubviews()
     }
