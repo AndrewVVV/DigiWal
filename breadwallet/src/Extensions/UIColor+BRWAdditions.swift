@@ -93,7 +93,7 @@ extension UIColor {
     }
 
     static var pink: UIColor {
-        return UIColor(red: 252.0/255.0, green: 83.0/255.0, blue: 148.0/255.0, alpha: 1.0)
+        return UIColor(red: 0.0/255.0, green: 102.0/255.0, blue: 204.0/255.0, alpha: 1.0)
     }
 
     static var blue: UIColor {

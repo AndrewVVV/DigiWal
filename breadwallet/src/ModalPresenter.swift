@@ -339,9 +339,10 @@ class ModalPresenter : Subscriber, Trackable {
                     let start = StartImportViewController(walletManager: walletManager, store: myself.store)
                     start.addCloseNavigationItem(tintColor: .white)
                     start.navigationItem.title = S.Import.title
-                    let faqButton = UIButton.buildFaqButton(store: myself.store, articleId: ArticleIds.importWallet)
+                // TODO: Writeup support/FAQ documentation for digibyte wallet
+                    /*let faqButton = UIButton.buildFaqButton(store: myself.store, articleId: ArticleIds.importWallet)
                     faqButton.tintColor = .white
-                    start.navigationItem.rightBarButtonItems = [UIBarButtonItem.negativePadding, UIBarButtonItem(customView: faqButton)]
+                    start.navigationItem.rightBarButtonItems = [UIBarButtonItem.negativePadding, UIBarButtonItem(customView: faqButton)]*/
                     importNav.viewControllers = [start]
                     settingsNav.dismiss(animated: true, completion: {
                         myself.topViewController?.present(importNav, animated: true, completion: nil)
@@ -362,9 +363,10 @@ class ModalPresenter : Subscriber, Trackable {
                     }
                     start.addCloseNavigationItem(tintColor: .white)
                     start.navigationItem.title = S.WipeWallet.title
-                    let faqButton = UIButton.buildFaqButton(store: myself.store, articleId: ArticleIds.wipeWallet)
+                // TODO: Writeup support/FAQ documentation for digibyte wallet
+                    /*let faqButton = UIButton.buildFaqButton(store: myself.store, articleId: ArticleIds.wipeWallet)
                     faqButton.tintColor = .white
-                    start.navigationItem.rightBarButtonItems = [UIBarButtonItem.negativePadding, UIBarButtonItem(customView: faqButton)]
+                    start.navigationItem.rightBarButtonItems = [UIBarButtonItem.negativePadding, UIBarButtonItem(customView: faqButton)]*/
                     nc.viewControllers = [start]
                     settingsNav.dismiss(animated: true, completion: {
                         myself.topViewController?.present(nc, animated: true, completion: nil)
@@ -581,9 +583,10 @@ class ModalPresenter : Subscriber, Trackable {
         })
         start.addCloseNavigationItem(tintColor: .white)
         start.navigationItem.title = S.SecurityCenter.Cells.paperKeyTitle
-        let faqButton = UIButton.buildFaqButton(store: store, articleId: ArticleIds.paperKey)
+        // TODO: Writeup support/FAQ documentation for digibyte wallet
+        /*let faqButton = UIButton.buildFaqButton(store: store, articleId: ArticleIds.paperKey)
         faqButton.tintColor = .white
-        start.navigationItem.rightBarButtonItems = [UIBarButtonItem.negativePadding, UIBarButtonItem(customView: faqButton)]
+        start.navigationItem.rightBarButtonItems = [UIBarButtonItem.negativePadding, UIBarButtonItem(customView: faqButton)]*/
         paperPhraseNavigationController.viewControllers = [start]
         vc.present(paperPhraseNavigationController, animated: true, completion: nil)
     }

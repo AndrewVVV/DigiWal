@@ -73,7 +73,7 @@ class EnterPhraseViewController : UIViewController, UIScrollViewDelegate, Custom
         container.addSubview(instruction)
         container.addSubview(faq)
         container.addSubview(moreInfoButton)
-
+        faq.isHidden = true // TODO: Writeup support/FAQ documentation for digibyte wallet
         addChildViewController(enterPhrase)
         container.addSubview(enterPhrase.view)
         enterPhrase.didMove(toParentViewController: self)

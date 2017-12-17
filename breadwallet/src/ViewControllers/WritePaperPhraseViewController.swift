@@ -72,9 +72,10 @@ class WritePaperPhraseViewController: UIViewController {
             self?.dismiss(animated: true, completion: nil)
         }
 
-        let faqButton = UIButton.buildFaqButton(store: store, articleId: ArticleIds.writePhrase)
+        // TODO: Writeup support/FAQ documentation for digibyte wallet
+        /*let faqButton = UIButton.buildFaqButton(store: store, articleId: ArticleIds.writePhrase)
         faqButton.tintColor = .white
-        navigationItem.rightBarButtonItems = [UIBarButtonItem.negativePadding, UIBarButtonItem(customView: faqButton)]
+        navigationItem.rightBarButtonItems = [UIBarButtonItem.negativePadding, UIBarButtonItem(customView: faqButton)]*/
     }
 
     override var preferredStatusBarStyle: UIStatusBarStyle {

@@ -120,11 +120,12 @@ class TouchIdSettingsViewController : UIViewController, Subscriber {
     }
 
     private func addFaqButton() {
-        let negativePadding = UIBarButtonItem(barButtonSystemItem: .fixedSpace, target: nil, action: nil)
+        // TODO: Writeup support/FAQ documentation for digibyte wallet
+        /*let negativePadding = UIBarButtonItem(barButtonSystemItem: .fixedSpace, target: nil, action: nil)
         negativePadding.width = -16.0
         let faqButton = UIButton.buildFaqButton(store: store, articleId: ArticleIds.enableTouchId)
         faqButton.tintColor = .white
-        navigationItem.rightBarButtonItems = [negativePadding, UIBarButtonItem(customView: faqButton)]
+        navigationItem.rightBarButtonItems = [negativePadding, UIBarButtonItem(customView: faqButton)]*/
     }
 
     private var textViewText: NSAttributedString {

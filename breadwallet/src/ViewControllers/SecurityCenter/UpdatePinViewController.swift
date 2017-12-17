@@ -93,6 +93,7 @@ class UpdatePinViewController : UIViewController, Subscriber {
         view.addSubview(caption)
         view.addSubview(pinView)
         view.addSubview(faq)
+        faq.isHidden = true // TODO: Writeup support/FAQ documentation for digibyte wallet
         view.addSubview(spacer)
     }
 

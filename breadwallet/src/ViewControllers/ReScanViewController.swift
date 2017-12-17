@@ -36,6 +36,7 @@ class ReScanViewController : UIViewController, Subscriber {
     private func addSubviews() {
         view.addSubview(header)
         view.addSubview(faq)
+        faq.isHidden = true // TODO: Writeup support/FAQ documentation for digibyte wallet
         view.addSubview(body)
         view.addSubview(button)
         view.addSubview(footer)

@@ -66,9 +66,10 @@ class DefaultCurrencyViewController : UITableViewController, Subscriber {
         titleLabel.sizeToFit()
         navigationItem.titleView = titleLabel
 
-        let faqButton = UIButton.buildFaqButton(store: store, articleId: ArticleIds.displayCurrency)
+        // TODO: Writeup support/FAQ documentation for digibyte wallet
+        /*let faqButton = UIButton.buildFaqButton(store: store, articleId: ArticleIds.displayCurrency)
         faqButton.tintColor = .darkText
-        navigationItem.rightBarButtonItems = [UIBarButtonItem.negativePadding, UIBarButtonItem(customView: faqButton)]
+        navigationItem.rightBarButtonItems = [UIBarButtonItem.negativePadding, UIBarButtonItem(customView: faqButton)]*/
     }
 
     private func setExchangeRateLabel() {

@@ -59,6 +59,7 @@ class WalletDisabledView : UIView {
         addSubview(blur)
         addSubview(label)
         addSubview(faq)
+        faq.isHidden = true
         addSubview(reset)
     }
 
