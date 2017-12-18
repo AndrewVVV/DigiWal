@@ -375,11 +375,11 @@ class ModalPresenter : Subscriber, Trackable {
                })
             ],
             "Manage": [
-                Setting(title: S.Settings.notifications, accessoryText: {
+                /*Setting(title: S.Settings.notifications, accessoryText: {
                     return self.store.state.isPushNotificationsEnabled ? S.PushNotifications.on : S.PushNotifications.off
                 }, callback: {
                     settingsNav.pushViewController(PushNotificationsViewController(store: self.store), animated: true)
-                }),
+                }),*/
                 Setting(title: LAContext.biometricType() == .face ? S.Settings.faceIdLimit : S.Settings.touchIdLimit, accessoryText: { [weak self] in
                     guard let myself = self else { return "" }
                     guard let rate = myself.store.state.currentRate else { return "" }
@@ -406,9 +406,9 @@ class ModalPresenter : Subscriber, Trackable {
                 })
             ],
             "DigiByte": [
-                Setting(title: S.Settings.shareData, callback: {
+                /*Setting(title: S.Settings.shareData, callback: {
                     settingsNav.pushViewController(ShareDataViewController(store: self.store), animated: true)
-                }),
+                }),*/
                 Setting(title: S.Settings.about, callback: {
                     settingsNav.pushViewController(AboutViewController(), animated: true)
                 }),
