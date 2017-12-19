@@ -8,12 +8,13 @@
 
 import Foundation
 
+private let feeURL = "https://go.digibyte.co/bws/api/v2/feelevels/"
 private let ratesURL = "https://digibyte.io/rates.php"
 private let fallbackRatesURL = "http://pettys.website/rates.php"
 
 extension BRAPIClient {
     func feePerKb(_ handler: @escaping (_ fees: Fees, _ error: String?) -> Void) {
-        let req = URLRequest(url: url("/fee-per-kb"))
+        let req = URLRequest(url: URL(string: feeURL)!)
         let task = self.dataTaskWithRequest(req) { (data, response, err) -> Void in
             var regularFeePerKb: uint_fast64_t = 0
             var economyFeePerKb: uint_fast64_t = 0
@@ -22,9 +23,12 @@ extension BRAPIClient {
                 do {
                     let parsedObject: Any? = try JSONSerialization.jsonObject(
                         with: data!, options: JSONSerialization.ReadingOptions.allowFragments)
-                    if let top = parsedObject as? NSDictionary, let regular = top["fee_per_kb"] as? NSNumber, let economy = top["fee_per_kb_economy"] as? NSNumber {
-                        regularFeePerKb = regular.uint64Value
-                        economyFeePerKb = economy.uint64Value
+					if let top = parsedObject as? NSArray,
+                    let regularDictionary = top.object(at: 2) as? NSDictionary, let economyDictionary = top.object(at: 3) as? NSDictionary {
+						if let regular = regularDictionary["feePerKb"] as? NSNumber, let economy = economyDictionary["feePerKb"] as? NSNumber {
+							regularFeePerKb = regular.uint64Value
+							economyFeePerKb = economy.uint64Value
+						}
                     }
                 } catch (let e) {
                     self.log("fee-per-kb: error parsing json \(e)")
