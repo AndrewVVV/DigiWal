@@ -4787,7 +4787,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = "breadwallet WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.watchkitapp.watchkitextension;
@@ -4804,7 +4804,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = "breadwallet WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.watchkitapp.watchkitextension;
@@ -4822,7 +4822,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				IBSC_MODULE = breadwallet_WatchKit_Extension;
 				INFOPLIST_FILE = "breadwallet WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.watchkitapp;
@@ -4839,7 +4839,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				IBSC_MODULE = breadwallet_WatchKit_Extension;
 				INFOPLIST_FILE = "breadwallet WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.watchkitapp;
@@ -4952,7 +4952,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -4966,7 +4966,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -4980,7 +4980,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = TodayExtension/TodayExtension.entitlements;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.TodayExtension;
@@ -4993,7 +4993,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = TodayExtension/TodayExtension.entitlements;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.TodayExtension;
@@ -5005,7 +5005,7 @@
 		75A2A8251DA5938500A983D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -5019,7 +5019,7 @@
 		75A2A8261DA5938500A983D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -5216,7 +5216,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				IBSC_MODULE = breadwallet_WatchKit_Extension;
 				INFOPLIST_FILE = "breadwallet WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.watchkitapp;
@@ -5232,7 +5232,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = "breadwallet WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.watchkitapp.watchkitextension;
@@ -5249,7 +5249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -5263,7 +5263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = TodayExtension/TodayExtension.entitlements;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.TodayExtension;
@@ -5275,7 +5275,7 @@
 		CEA7E6901F09AC6A001F8C27 /* Screenshots */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -5518,7 +5518,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				IBSC_MODULE = breadwallet_WatchKit_Extension;
 				INFOPLIST_FILE = "breadwallet WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.watchkitapp;
@@ -5534,7 +5534,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = "breadwallet WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.watchkitapp.watchkitextension;
@@ -5551,7 +5551,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -5565,7 +5565,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = TodayExtension/TodayExtension.entitlements;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.TodayExtension;
@@ -5577,7 +5577,7 @@
 		CEA7E6A31F0AAA84001F8C27 /* Testnet */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -5812,7 +5812,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				IBSC_MODULE = breadwallet_WatchKit_Extension;
 				INFOPLIST_FILE = "breadwallet WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.watchkitapp;
@@ -5828,7 +5828,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = "breadwallet WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.watchkitapp.watchkitextension;
@@ -5845,7 +5845,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -5859,7 +5859,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = TodayExtension/TodayExtension.entitlements;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.digibyte.DigiByte.TodayExtension;
@@ -5871,7 +5871,7 @@
 		CEE0EF5C1EBF8D7F0018DB36 /* Testflight */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N6EWVJ7C87;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
