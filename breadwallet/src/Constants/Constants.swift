@@ -41,8 +41,7 @@ struct C {
     static let maxMemoLength = 250
 	//FIXME: We need a valid feedback email address.
     static let feedbackEmail = "info@digibyte.io"
-	//FIXME: The reviewLink must be updated with the official Digibyte Wallet iTunes Connect information
-    static let reviewLink = "https://itunes.apple.com/app/digibyte-digibyte-wallet/id885251393?action=write-review"
+	static let reviewLink = "https://itunes.apple.com/us/app/digibyte-wallet/id1328006562?action=write-review"
     static var standardPort: Int {
 		return E.isTestnet ? 12024 : 12025
     }
