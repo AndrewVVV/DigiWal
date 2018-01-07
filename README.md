@@ -1,4 +1,4 @@
-[![Bread](/images/top-logo.jpg)](https://itunes.apple.com/app/breadwallet/id885251393)
+[![Bread](/images/top-logo.jpg)](https://itunes.apple.com/app/digiwallet/id1328006562)
 
 ## The easy and secure DigiByte wallet
 
