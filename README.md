@@ -2,19 +2,19 @@
 
 ## The easy and secure DigiByte wallet
 
-The DigiByte Wallet for iOS is the best way to get started with digibyte. Our simple, streamlined design is easy for beginners, yet powerful enough for experienced users.
+DigiWallet for iOS is the best way to get started with digibyte. Our simple, streamlined design is easy for beginners, yet powerful enough for experienced users.
 
 ### Completely decentralized
 
-Unlike other iOS digibyte wallets, **DigiByte Wallet for iOS** is a standalone digibyte client. It connects directly to the bitcoin network using [SPV](https://en.bitcoin.it/wiki/Thin_Client_Security#Header-Only_Clients) mode, and doesn't rely on servers that can be hacked or disabled. Even if Bread the company disappears, the app will continue to function, allowing users to access their money at any time.
+Unlike other digibyte wallets, **DigiWallet for iOS** is a standalone digibyte client. It connects directly to the bitcoin network using [SPV](https://en.bitcoin.it/wiki/Thin_Client_Security#Header-Only_Clients) mode, and doesn't rely on servers that can be hacked or disabled. Even if Bread the company disappears, the app will continue to function, allowing users to access their money at any time.
 
 ### Cutting-edge security
 
-**DigiByte Wallet for iOS** utilizes AES hardware encryption, app sandboxing, and the latest iOS security features to protect users from malware, browser security holes, and even physical theft. Private keys are stored only in the secure enclave of the user's phone, inaccessible to anyone other than the user.
+**DigiWallet for iOS** utilizes AES hardware encryption, app sandboxing, and the latest iOS security features to protect users from malware, browser security holes, and even physical theft. Private keys are stored only in the secure enclave of the user's phone, inaccessible to anyone other than the user.
 
 ### Desgined with new users in mind
 
-Simplicity and ease-of-use is **DigiByte Wallet for iOS**'s core design principle. A simple recovery phrase (which we call a paper key) is all that is needed to restore the user's wallet if they ever lose or replace their device. **DigiByte Wallet for iOS** is [deterministic](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), which means the user's balance and transaction history can be recovered just from the paper key.
+Simplicity and ease-of-use is **DigiWallet for iOS**'s core design principle. A simple recovery phrase (which we call a paper key) is all that is needed to restore the user's wallet if they ever lose or replace their device. **DigiWallet for iOS** is [deterministic](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), which means the user's balance and transaction history can be recovered just from the paper key.
 
 ![screenshots](/images/screenshots.jpg)
 
@@ -30,7 +30,7 @@ Simplicity and ease-of-use is **DigiByte Wallet for iOS**'s core design principl
 
 ### Localization
 
-**DigiByte Wallet for iOS** is available in the following languages:
+**DigiWallet for iOS** is available in the following languages:
 
 - Chinese (Simplified and traditional)
 - Danish
@@ -60,4 +60,4 @@ Any jailbreak app can grant itself access to every other app's keychain data. Th
 
 **DigiByte Wallet for iOS** is open source and available under the terms of the MIT license.
 
-Source code is available at https://github.com/Dajiban/digibytewallet-ios
+Source code is available at https://github.com/Racecraft/digibytewallet-ios
