@@ -44,12 +44,12 @@ struct E {
             return false
         #endif
     }()
-    static let isIPhone4: Bool = {
+    static var isIPhone4: Bool {
         return UIApplication.shared.keyWindow?.bounds.height == 480.0
-    }()
-    static let isIPhone5: Bool = {
+    }
+    static var isIPhone5: Bool {
         return (UIApplication.shared.keyWindow?.bounds.height == 568.0) && (E.is32Bit)
-    }()
+    }
     static let isIPhoneX: Bool = {
         return (UIScreen.main.bounds.size.height == 812.0)
     }()

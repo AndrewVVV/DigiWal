@@ -246,6 +246,11 @@ class SendViewController : UIViewController, Subscriber, ModalPresentable, Track
                 self.send()
             })
         }
+        confirm.cancelCallback = {
+            confirm.dismiss(animated: true, completion: {
+                self.sender.transaction = nil
+            })
+        }
         confirmTransitioningDelegate.shouldShowMaskView = false
         confirm.transitioningDelegate = confirmTransitioningDelegate
         confirm.modalPresentationStyle = .overFullScreen
