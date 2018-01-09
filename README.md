@@ -1,32 +1,35 @@
 [![Bread](/images/top-logo.jpg)](https://itunes.apple.com/app/digiwallet/id1328006562)
 
-## The easy and secure DigiByte wallet
+## Fast, simple and safe!
 
-DigiWallet for iOS is the best way to get started with digibyte. Our simple, streamlined design is easy for beginners, yet powerful enough for experienced users.
+DigiWallet for iOS and Android is the easiest way to get started sending and receiving digibyte. Designed with both new and experienced users in-mind, DigiWallet for iOS and Android is simple enough for a first-time novice to use, yet powerful enough for regular power-users.
 
-### Completely decentralized
+### Part of the DigiByte Network
 
-Unlike other digibyte wallets, **DigiWallet for iOS** is a standalone digibyte client. It connects directly to the bitcoin network using [SPV](https://en.bitcoin.it/wiki/Thin_Client_Security#Header-Only_Clients) mode, and doesn't rely on servers that can be hacked or disabled. Even if Bread the company disappears, the app will continue to function, allowing users to access their money at any time.
+DigiWallet for iOS and Android uses the vast DigiByte Network, the worlds most robust and decentralized Blockchain, to allow you to access your DigiByte at any time. Your app connects directly as an SPV (Lite) wallet, so you can start sending and receiving DigiByte right away. No lengthy downloads or syncing!
 
-### Cutting-edge security
+### Safer than a vault
 
-**DigiWallet for iOS** utilizes AES hardware encryption, app sandboxing, and the latest iOS security features to protect users from malware, browser security holes, and even physical theft. Private keys are stored only in the secure enclave of the user's phone, inaccessible to anyone other than the user.
+DigiWallet for iOS and Android is based on the latest security features to protect you and your precious DigiByte. Utilizing secure hardware encryption and a variety of other measures, you can rest assured that your DigiByte are accessible to you and you alone.
 
-### Desgined with new users in mind
+### Your first Digital wallet
 
-Simplicity and ease-of-use is **DigiWallet for iOS**'s core design principle. A simple recovery phrase (which we call a paper key) is all that is needed to restore the user's wallet if they ever lose or replace their device. **DigiWallet for iOS** is [deterministic](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), which means the user's balance and transaction history can be recovered just from the paper key.
+DigiWallet for iOS and Android was engineered from the ground-up to be as friendly to first-time users as possible. Central to this ideal is the simple recovery phrase, that is all that is required to restore your DigiByte in the event you ever lose your phone or happen to flush it away. DigiByte Wallet uses “Brain wallet” techniques (A phrase you keep in your brain) to allow you to easily get back up and running on a new phone, and it works across iOS and Android.
 
 ![screenshots](/images/screenshots.jpg)
 
 ### Features
 
 - [Simplified payment verification](https://github.com/bitcoin/bips/blob/master/bip-0037.mediawiki) for fast mobile performance
+- Start using DigiByte Wallet immediately, thanks SPV (Lite) wallet technology
+- Safety with your fingerprint, for easy unlocking of your wallet
+- Easily import paper wallets, or restore from another phone
 - No server to get hacked or go down
+- Redundancy and resiliency, powered by DigiBytes globally distributed Blockchain
 - Single paper key is all that's needed to backup your wallet
-- Private keys never leave your device
-- Save a memo for each transaction (off-chain)
-- Supports importing [password protected](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) paper wallets
-- Supports ["Payment protocol"](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) payee identity certification
+- Your secure / private keys never leave your phone and are never transmitted to any 3rd party, ensuring you maintain total control of your DigiByte
+- QR Code scanning to save you time and effort
+- Currency conversion, to quickly and easily see the value of your DigiByte in other fiat currencies
 
 ### Localization
 
@@ -58,6 +61,6 @@ Any jailbreak app can grant itself access to every other app's keychain data. Th
 
 ---
 
-**DigiByte Wallet for iOS** is open source and available under the terms of the MIT license.
+**DigiWallet for iOS** is open source and available under the terms of the MIT license.
 
 Source code is available at https://github.com/Racecraft/digibytewallet-ios
