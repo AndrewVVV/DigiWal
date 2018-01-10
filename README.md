@@ -1,13 +1,5 @@
 [![DigiWallet](/images/top-logo.jpg)](https://itunes.apple.com/app/digiwallet/id1328006562)
 
-## Donate
-
-DigiWallet for iOS is developed as a free contribution to the DigiByte community.  By donating DigiByte to the following address, you can help add new features, fix bugs, and provide ongoing support: D8LHGmtA9V19cmHEYEBcx7gjKfbha2DPkT
-
-![donate](/images/digiwallet_donation.jpg)
-
-We appreciate your support!
-
 ## Fast, simple and safe!
 
 DigiWallet for iOS and Android is the easiest way to get started sending and receiving digibyte. Designed with both new and experienced users in-mind, DigiWallet for iOS and Android is simple enough for a first-time novice to use, yet powerful enough for regular power-users.
@@ -60,6 +52,14 @@ DigiWallet for iOS and Android was engineered from the ground-up to be as friend
 We manage all translations with:
 
 [PhraseApp - Start localizing software the simple way](https://phraseapp.com)
+
+## Donate
+
+DigiWallet for iOS is developed as a free contribution to the DigiByte community.  By donating DigiByte to the following address, you can help add new features, fix bugs, and provide ongoing support: D8LHGmtA9V19cmHEYEBcx7gjKfbha2DPkT
+
+![donate](/images/digiwallet_donation.jpg)
+
+We appreciate your support!
 
 ### WARNING:
 
