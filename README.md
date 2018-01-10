@@ -55,7 +55,7 @@ We manage all translations with:
 
 ## Donate
 
-DigiWallet for iOS is developed as a free contribution to the DigiByte community.  By donating DigiByte to the following address, you can help add new features, fix bugs, and provide ongoing support: D8LHGmtA9V19cmHEYEBcx7gjKfbha2DPkT
+DigiWallet for iOS is developed as a free contribution to the DigiByte community.  By donating DigiByte to the following address, you can help add new features, fix bugs, and provide ongoing support: DLjPPX9ZZnSMXJr6xFyMxnQCjtjix9ZJS6
 
 ![donate](/images/digiwallet_donation.jpg)
 
