@@ -71,4 +71,4 @@ Any jailbreak app can grant itself access to every other app's keychain data. Th
 
 Source code is available at https://github.com/Racecraft/digibytewallet-ios
 
-![donate](/images/digiwallet_donation.png)
+![donate](/images/digiwallet_donation.jpg)
