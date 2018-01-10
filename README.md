@@ -1,4 +1,4 @@
-[![DigiWallet](/images/top-logo.jpg)](https://itunes.apple.com/app/digiwallet/id1328006562)
+[![DigiWallet](/images/top-logo.jpg)](https://itunes.apple.com/us/app/digiwallet-digibyte-wallet/id1328006562)
 
 ## Fast, simple and safe!
 
