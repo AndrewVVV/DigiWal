@@ -4,6 +4,8 @@
 
 DigiWallet for iOS is developed as a free contribution to the DigiByte community.  By donating DigiByte to the following address, you can help add new features, fix bugs, and provide ongoing support: D8LHGmtA9V19cmHEYEBcx7gjKfbha2DPkT
 
+![donate](/images/digiwallet_donation.jpg)
+
 We appreciate your support!
 
 ## Fast, simple and safe!
@@ -70,5 +72,3 @@ Any jailbreak app can grant itself access to every other app's keychain data. Th
 **DigiWallet for iOS** is open source and available under the terms of the MIT license.
 
 Source code is available at https://github.com/Racecraft/digibytewallet-ios
-
-![donate](/images/digiwallet_donation.jpg)
