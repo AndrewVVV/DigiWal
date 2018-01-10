@@ -1,4 +1,4 @@
-[![Bread](/images/top-logo.jpg)](https://itunes.apple.com/app/digiwallet/id1328006562)
+[![DigiWallet](/images/top-logo.jpg)](https://itunes.apple.com/app/digiwallet/id1328006562)
 
 ## Donate
 
@@ -70,3 +70,5 @@ Any jailbreak app can grant itself access to every other app's keychain data. Th
 **DigiWallet for iOS** is open source and available under the terms of the MIT license.
 
 Source code is available at https://github.com/Racecraft/digibytewallet-ios
+
+![donate](/images/digiwallet_donation.png)
