@@ -192,12 +192,13 @@ class ModalPresenter : Subscriber, Trackable {
     }
 
     private func presentFaq(articleId: String? = nil) {
-        guard let supportCenter = supportCenter else { return }
+        //guard let supportCenter = supportCenter else { return }
+        guard let supportCenter = UIStoryboard.init(name: "SupportStoryboard", bundle: Bundle.main).instantiateInitialViewController() else { return }
         supportCenter.modalPresentationStyle = .overFullScreen
         supportCenter.modalPresentationCapturesStatusBarAppearance = true
-        supportCenter.transitioningDelegate = supportCenter
-        let url = articleId == nil ? "/support" : "/support/article?slug=\(articleId!)"
-        supportCenter.navigate(to: url)
+        //supportCenter.transitioningDelegate = supportCenter
+        /*let url = articleId == nil ? "/support" : "/support/article?slug=\(articleId!)"
+        supportCenter.navigate(to: url)*/
         topViewController?.present(supportCenter, animated: true, completion: {})
     }
 
