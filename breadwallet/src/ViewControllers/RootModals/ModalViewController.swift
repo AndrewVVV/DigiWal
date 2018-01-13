@@ -36,7 +36,13 @@ class ModalViewController : UIViewController, Subscriber {
     private let scrollViewContent = UIView()
 
     deinit {
-        store.unsubscribe(self)
+		
+		objc_sync_enter(self)
+		defer {
+			objc_sync_exit(self)
+		}
+		store.unsubscribe(self)
+		
     }
 
     override func viewDidLoad() {

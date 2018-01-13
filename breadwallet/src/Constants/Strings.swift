@@ -11,8 +11,8 @@ import Foundation
 enum S {
 
     enum Symbols {
-        static let bits = "mDGB"
-        static let btc = "DGB"
+        static let bits = "m\u{018A}"
+		static let btc = "\u{018A}"
         static let narrowSpace = "\u{2009}"
         static let lock = "\u{1F512}"
         static let redX = "\u{274C}"
