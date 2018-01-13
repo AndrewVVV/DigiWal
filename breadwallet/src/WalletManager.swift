@@ -400,7 +400,7 @@ class WalletManager : BRWalletListener, BRPeerManagerListener {
     }
     
     func saveBlocks(_ replace: Bool, _ blocks: [BRBlockRef?]) {
-        DispatchQueue.walletQueue.sync {
+        DispatchQueue.walletQueue.async {
             var pk: Int32 = 0
             sqlite3_exec(self.db, "begin exclusive", nil, nil, nil)
 
