@@ -9,15 +9,19 @@
 import Foundation
 
 private let feeURL = "https://go.digibyte.co/bws/api/v2/feelevels/"
-private let ratesURL = "https://digibyte.io/rates.php"
+private let ratesURL = "https://digibyteprojects.com/rates.php"
 private let fallbackRatesURL = "http://pettys.website/rates.php"
 
 extension BRAPIClient {
     func feePerKb(_ handler: @escaping (_ fees: Fees, _ error: String?) -> Void) {
-        let req = URLRequest(url: URL(string: feeURL)!)
+		//FIXME: We are hard coding fee levels to boost sync performance temporarily, We should not be calling this everytime we make a call to get blocks.  We should find a way to improve this.
+		let regularFeePerKb: uint_fast64_t = 80000
+		let economyFeePerKb: uint_fast64_t = 50000
+		handler(Fees(regular: regularFeePerKb, economy: economyFeePerKb), nil)
+        /*let req = URLRequest(url: URL(string: feeURL)!)
         let task = self.dataTaskWithRequest(req) { (data, response, err) -> Void in
-            var regularFeePerKb: uint_fast64_t = 0
-            var economyFeePerKb: uint_fast64_t = 0
+            var regularFeePerKb: uint_fast64_t = 80000
+            var economyFeePerKb: uint_fast64_t = 50000
             var errStr: String? = nil
             if err == nil {
                 do {
@@ -42,7 +46,7 @@ extension BRAPIClient {
             }
             handler(Fees(regular: regularFeePerKb, economy: economyFeePerKb), errStr)
         }
-        task.resume()
+        task.resume()*/
     }
     
     func exchangeRates(isFallback: Bool = false, _ handler: @escaping (_ rates: [Rate], _ error: String?) -> Void) {
