@@ -3948,9 +3948,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-breadwallet/Pods-breadwallet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Buglife/Buglife.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Buglife.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -5172,7 +5175,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = breadwallet/breadwallet.entitlements;
 				DEVELOPMENT_TEAM = N6EWVJ7C87;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = breadwallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDebug";
@@ -5193,7 +5199,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = breadwallet/breadwallet.entitlements;
 				DEVELOPMENT_TEAM = N6EWVJ7C87;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = breadwallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
@@ -5489,7 +5498,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = breadwallet/breadwallet.entitlements;
 				DEVELOPMENT_TEAM = N6EWVJ7C87;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = breadwallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDebug -DScreenshots -DTestnet";
@@ -5794,7 +5806,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = breadwallet/breadwallet.entitlements;
 				DEVELOPMENT_TEAM = N6EWVJ7C87;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = breadwallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDebug -DTestnet";
@@ -6092,7 +6107,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = breadwallet/breadwallet.entitlements;
 				DEVELOPMENT_TEAM = N6EWVJ7C87;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = breadwallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DTestflight -DDebug";

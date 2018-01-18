@@ -109,6 +109,22 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Buglife/Buglife.framework"
+fi
+if [[ "$CONFIGURATION" == "Testnet" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Buglife/Buglife.framework"
+fi
+if [[ "$CONFIGURATION" == "Screenshots" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Buglife/Buglife.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Buglife/Buglife.framework"
+fi
+if [[ "$CONFIGURATION" == "Testflight" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Buglife/Buglife.framework"
+fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi

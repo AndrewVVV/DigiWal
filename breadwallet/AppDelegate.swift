@@ -25,6 +25,7 @@
 
 import UIKit
 import LocalAuthentication
+import Buglife
 
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -34,6 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let applicationController = ApplicationController()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        Buglife.shared().start(withAPIKey: "NOTAKEY")
         UIView.swizzleSetFrame()
         applicationController.launch(application: application, options: launchOptions)
         return true

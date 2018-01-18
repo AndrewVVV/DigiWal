@@ -6,7 +6,8 @@ target 'breadwallet' do
   use_frameworks!
 
   # Pods for breadwallet
-
+  pod 'Buglife'
+  
   target 'breadwalletTests' do
     inherit! :search_paths
     # Pods for testing

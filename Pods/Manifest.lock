@@ -1,3 +1,12 @@
-PODFILE CHECKSUM: dc2dfaf2d460a0bafb8661c106fdff4b157102f4
+PODS:
+  - Buglife (2.1.0)
+
+DEPENDENCIES:
+  - Buglife
+
+SPEC CHECKSUMS:
+  Buglife: cbc7c0c86393fc7db7b7be9fed846b5f26c00a6a
+
+PODFILE CHECKSUM: 2934ad9c67ca63babccf2d03067c0812538bebaa
 
 COCOAPODS: 1.4.0.beta.2
