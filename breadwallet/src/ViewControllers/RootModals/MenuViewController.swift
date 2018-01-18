@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Buglife
 
 class MenuViewController : UIViewController, Trackable {
 
@@ -20,7 +21,7 @@ class MenuViewController : UIViewController, Trackable {
     //MARK: - Private
     fileprivate let buttonHeight: CGFloat = 72.0
     fileprivate let buttons: [MenuButton] = {
-        let types: [MenuButtonType] = [.security, .support, .settings, .lock, .buy] // TODO: Writeup support/FAQ documentation for digibyte wallet
+        let types: [MenuButtonType] = [.security, .support, .report, .settings, .lock, .buy] // TODO: Writeup support/FAQ documentation for digibyte wallet
         return types.flatMap {
             if $0 == .buy && !BRAPIClient.featureEnabled(.buyBitcoin) {
                 return nil
@@ -73,6 +74,8 @@ class MenuViewController : UIViewController, Trackable {
         case .buy:
             saveEvent("menu.didTapBuyBitcoin")
             didTapBuy?()
+        case .report:
+            Buglife.shared().presentReporter()
         }
     }
 }
