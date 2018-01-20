@@ -536,9 +536,13 @@ class BRPeerManager {
     init?(wallet: BRWallet, earliestKeyTime: TimeInterval, blocks: [BRBlockRef?], peers: [BRPeer],
           listener: BRPeerManagerListener) {
         var blockRefs = blocks
-        guard let cPtr = BRPeerManagerNew(wallet.cPtr, UInt32(earliestKeyTime + NSTimeIntervalSince1970),
+		
+		//FIXME: We need to explore making a change to the core protocol so that it will download more headers per request
+		// in perpetuity rather than falling back to 500 from 2000
+		guard let cPtr = BRPeerManagerNew(wallet.cPtr, UInt32(earliestKeyTime + NSTimeIntervalSince1970),
                                           &blockRefs, blockRefs.count, peers, peers.count) else { return nil }
-        self.listener = listener
+		
+		self.listener = listener
         self.cPtr = cPtr
         
         BRPeerManagerSetCallbacks(cPtr, Unmanaged.passUnretained(self).toOpaque(),

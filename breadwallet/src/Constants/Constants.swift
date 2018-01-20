@@ -43,6 +43,6 @@ struct C {
     static let feedbackEmail = "info@digibyte.io"
 	static let reviewLink = "https://itunes.apple.com/us/app/digibyte-wallet/id1328006562?action=write-review"
     static var standardPort: Int {
-		return E.isTestnet ? 12024 : 12025
+		return E.isTestnet ? 12024 : 12024
     }
 }

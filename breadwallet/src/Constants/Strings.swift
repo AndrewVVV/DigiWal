@@ -11,7 +11,7 @@ import Foundation
 enum S {
 
     enum Symbols {
-        static let bits = "m\u{018A}"
+        static let bits = "\u{018A}"
 		static let btc = "\u{018A}"
         static let narrowSpace = "\u{2009}"
         static let lock = "\u{1F512}"
@@ -532,14 +532,14 @@ enum S {
 
     enum FeeSelector {
         static let title = NSLocalizedString("FeeSelector.title", value: "Processing Speed", comment: "Fee Selector title")
-        static let regularLabel = NSLocalizedString("FeeSelector.regularLabel", value: "Estimated Delivery: 1.5 minutes", comment: "Fee Selector regular fee description")
+        static let regularLabel = NSLocalizedString("FeeSelector.regularLabel", value: "Estimated Delivery: 15 seconds", comment: "Fee Selector regular fee description")
         static let estimatedDelivery = NSLocalizedString("FeeSelector.estimatedDeliver", value: "Estimated Delivery: %1$@", comment: "Fee Selector regular fee description")
-        static let economyLabel = NSLocalizedString("FeeSelector.economyLabel", value: "Estimated Delivery: 60+ minutes", comment: "Fee Selector economly fee description")
+        static let economyLabel = NSLocalizedString("FeeSelector.economyLabel", value: "Estimated Delivery: 15+ minutes", comment: "Fee Selector economly fee description")
         static let economyWarning = NSLocalizedString("FeeSelector.economyWarning", value: "This option is not recommended for time-sensitive transactions.", comment: "Warning message for economy fee")
         static let regular = NSLocalizedString("FeeSelector.regular", value: "Regular", comment: "Regular fee")
         static let economy = NSLocalizedString("FeeSelector.economy", value: "Economy", comment: "Economy fee")
-        static let economyTime = NSLocalizedString("FeeSelector.economyTime", value: "1-24 hours", comment: "E.g. [This transaction is predicted to complete in] 1-24 hours")
-        static let regularTime = NSLocalizedString("FeeSelector.regularTime", value: "10-60 minutes", comment: "E.g. [This transaction is predicted to complete in] 10-60 minutes")
+        static let economyTime = NSLocalizedString("FeeSelector.economyTime", value: "15+ minutes", comment: "E.g. [This transaction is predicted to complete in] 15+ minutes")
+        static let regularTime = NSLocalizedString("FeeSelector.regularTime", value: "15-30 seconds", comment: "E.g. [This transaction is predicted to complete in] 15-30 seconds")
     }
 
     enum Confirmation {

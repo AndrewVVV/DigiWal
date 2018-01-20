@@ -37,7 +37,7 @@ enum MenuButtonType {
         switch self {
         case .security:
             return #imageLiteral(resourceName: "Shield")
-        case .support, .report:
+        case .support:
             return #imageLiteral(resourceName: "FaqFill")
         case .settings:
             return #imageLiteral(resourceName: "Settings")
@@ -45,6 +45,8 @@ enum MenuButtonType {
             return #imageLiteral(resourceName: "Lock")
         case .buy:
             return #imageLiteral(resourceName: "BuyBitcoin")
+		case .report:
+			return #imageLiteral(resourceName: "BugReport")
         }
     }
 }
