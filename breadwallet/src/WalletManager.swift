@@ -448,6 +448,7 @@ class WalletManager : BRWalletListener, BRPeerManagerListener {
 				//FIXME: There are cases where some blocks are coming in from a node where the flagslen field exceeds the size of Int32
 				let flagLen = Int32(exactly: b.pointee.flagsLen) ?? Int32(0)
                 sqlite3_bind_blob(sql2, 9, [b.pointee.flags], flagLen, SQLITE_TRANSIENT)
+				
                 sqlite3_bind_blob(sql2, 10, [b.pointee.hashes], Int32(MemoryLayout<UInt256>.size*b.pointee.hashesCount),
                                   SQLITE_TRANSIENT)
                 sqlite3_bind_blob(sql2, 11, [b.pointee.merkleRoot], Int32(MemoryLayout<UInt256>.size), SQLITE_TRANSIENT)

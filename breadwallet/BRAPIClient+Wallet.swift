@@ -15,10 +15,7 @@ private let fallbackRatesURL = "http://pettys.website/rates.php"
 extension BRAPIClient {
     func feePerKb(_ handler: @escaping (_ fees: Fees, _ error: String?) -> Void) {
 		//FIXME: We are hard coding fee levels to boost sync performance temporarily, We should not be calling this everytime we make a call to get blocks.  We should find a way to improve this.
-		let regularFeePerKb: uint_fast64_t = 80000
-		let economyFeePerKb: uint_fast64_t = 50000
-		handler(Fees(regular: regularFeePerKb, economy: economyFeePerKb), nil)
-        /*let req = URLRequest(url: URL(string: feeURL)!)
+		let req = URLRequest(url: URL(string: feeURL)!)
         let task = self.dataTaskWithRequest(req) { (data, response, err) -> Void in
             var regularFeePerKb: uint_fast64_t = 80000
             var economyFeePerKb: uint_fast64_t = 50000
@@ -46,7 +43,7 @@ extension BRAPIClient {
             }
             handler(Fees(regular: regularFeePerKb, economy: economyFeePerKb), errStr)
         }
-        task.resume()*/
+        task.resume()
     }
     
     func exchangeRates(isFallback: Bool = false, _ handler: @escaping (_ rates: [Rate], _ error: String?) -> Void) {

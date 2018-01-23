@@ -8,6 +8,9 @@ target 'breadwallet' do
   # Pods for breadwallet
   pod 'Buglife'
   
+  # View Debugging
+  pod 'Reveal-SDK', :configurations => ['Debug']
+  
   target 'breadwalletTests' do
     inherit! :search_paths
     # Pods for testing
