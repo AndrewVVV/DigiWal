@@ -324,10 +324,10 @@ class ApplicationController : Subscriber, Trackable {
                     if state.walletState.syncState == .success {
                         DispatchQueue.walletQueue.async {
                             peerManager.disconnect()
-                            group.leave()
                         }
-                    }
+					}
                 }
+				group.leave()
             })
         }
 
