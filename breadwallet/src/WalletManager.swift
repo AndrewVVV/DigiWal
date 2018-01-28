@@ -146,10 +146,9 @@ class WalletManager : BRWalletListener, BRPeerManagerListener {
     init(masterPubKey: BRMasterPubKey, earliestKeyTime: TimeInterval, dbPath: String? = nil, store: Store) throws {
         self.masterPubKey = masterPubKey
         self.earliestKeyTime = earliestKeyTime
-		//FIXME: Before shipping to production, change this to DigiWallet.sqlite
-        self.dbPath = try dbPath ??
+		self.dbPath = try dbPath ??
             FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil,
-                                    create: false).appendingPathComponent("BreadWallet.sqlite").path
+                                    create: false).appendingPathComponent(C.sqliteFileName).path
         self.store = store
         // open sqlite database
         if sqlite3_open_v2( self.dbPath, &db,
