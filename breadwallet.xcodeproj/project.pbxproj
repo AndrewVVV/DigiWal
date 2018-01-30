@@ -238,6 +238,9 @@
 		AA85B8191FEAF84B008EB914 /* skein.c in Sources */ = {isa = PBXBuildFile; fileRef = AA85B80A1FEAF84A008EB914 /* skein.c */; };
 		AA9455582020D40B00B6ABB1 /* BIP39Words.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA94555A2020D40B00B6ABB1 /* BIP39Words.plist */; };
 		AA9455692020D91C00B6ABB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9455682020D91B00B6ABB1 /* LaunchScreen.storyboard */; };
+		AA94556B2020DA9600B6ABB1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA94556A2020DA9600B6ABB1 /* MainInterface.storyboard */; };
+		AA94556D2020DAB500B6ABB1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA94556C2020DAB500B6ABB1 /* MainInterface.storyboard */; };
+		AA94556F2020DAFC00B6ABB1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA94556E2020DAFC00B6ABB1 /* Interface.storyboard */; };
 		C49F0287399E34837D60D3B8 /* Pods_breadwallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C879FCE32446182EABF9F93 /* Pods_breadwallet.framework */; };
 		CE03EC721EF193810038E3A8 /* String+Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03EC711EF193800038E3A8 /* String+Keys.swift */; };
 		CE03EC741EF256AC0038E3A8 /* SimpleUTXO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03EC731EF256AC0038E3A8 /* SimpleUTXO.swift */; };
@@ -1425,6 +1428,9 @@
 		AA9455662020D46E00B6ABB1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "src/Strings/zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		AA9455672020D46E00B6ABB1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hant"; path = "zh-Hant.lproj/BIP39Words.plist"; sourceTree = "<group>"; };
 		AA9455682020D91B00B6ABB1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA94556A2020DA9600B6ABB1 /* MainInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		AA94556C2020DAB500B6ABB1 /* MainInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		AA94556E2020DAFC00B6ABB1 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		B969D992D959B5B85A1BDD91 /* Pods-breadwalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breadwalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breadwalletUITests/Pods-breadwalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4800D2B9C627933093A52E3 /* Pods-breadwalletTests.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breadwalletTests.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-breadwalletTests/Pods-breadwalletTests.testnet.xcconfig"; sourceTree = "<group>"; };
 		C4ED1454C2B4DE0BAFD4D8FE /* Pods_breadwalletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breadwalletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2705,6 +2711,7 @@
 		75A2A7BC1DA5934300A983D8 /* breadwallet WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				AA94556E2020DAFC00B6ABB1 /* Interface.storyboard */,
 				75A2A7C01DA5934300A983D8 /* Assets.xcassets */,
 				75A2A7C21DA5934300A983D8 /* Info.plist */,
 				CEFFA2D01EB3BD730085C5D1 /* LoadingIndicator.xcassets */,
@@ -2767,6 +2774,7 @@
 		75A2A7F41DA5935F00A983D8 /* MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				AA94556C2020DAB500B6ABB1 /* MainInterface.storyboard */,
 				75A2A7F51DA5935F00A983D8 /* MessagesViewController.swift */,
 				75A2A7FA1DA5935F00A983D8 /* Assets.xcassets */,
 				75A2A7FC1DA5935F00A983D8 /* Info.plist */,
@@ -2777,6 +2785,7 @@
 		75A2A80B1DA5936F00A983D8 /* TodayExtension */ = {
 			isa = PBXGroup;
 			children = (
+				AA94556A2020DA9600B6ABB1 /* MainInterface.storyboard */,
 				CE916E341EDA848B00D641D6 /* TodayExtension.entitlements */,
 				CE916E2C1EDA7ED000D641D6 /* BRBubbleView.h */,
 				CE916E2D1EDA7ED000D641D6 /* BRBubbleView.m */,
@@ -3796,6 +3805,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEFFA2D11EB3BD730085C5D1 /* LoadingIndicator.xcassets in Resources */,
+				AA94556F2020DAFC00B6ABB1 /* Interface.storyboard in Resources */,
 				75A2A7C11DA5934300A983D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3813,6 +3823,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75A2A7FB1DA5935F00A983D8 /* Assets.xcassets in Resources */,
+				AA94556D2020DAB500B6ABB1 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3821,6 +3832,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE916E2A1EDA7E4400D641D6 /* Media.xcassets in Resources */,
+				AA94556B2020DA9600B6ABB1 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
