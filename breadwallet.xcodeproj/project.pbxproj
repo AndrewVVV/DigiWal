@@ -237,6 +237,7 @@
 		AA85B8181FEAF84B008EB914 /* sph_simd.c in Sources */ = {isa = PBXBuildFile; fileRef = AA85B8061FEAF84A008EB914 /* sph_simd.c */; };
 		AA85B8191FEAF84B008EB914 /* skein.c in Sources */ = {isa = PBXBuildFile; fileRef = AA85B80A1FEAF84A008EB914 /* skein.c */; };
 		AA9455582020D40B00B6ABB1 /* BIP39Words.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA94555A2020D40B00B6ABB1 /* BIP39Words.plist */; };
+		AA9455692020D91C00B6ABB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9455682020D91B00B6ABB1 /* LaunchScreen.storyboard */; };
 		C49F0287399E34837D60D3B8 /* Pods_breadwallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C879FCE32446182EABF9F93 /* Pods_breadwallet.framework */; };
 		CE03EC721EF193810038E3A8 /* String+Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03EC711EF193800038E3A8 /* String+Keys.swift */; };
 		CE03EC741EF256AC0038E3A8 /* SimpleUTXO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03EC731EF256AC0038E3A8 /* SimpleUTXO.swift */; };
@@ -1423,6 +1424,7 @@
 		AA9455652020D46300B6ABB1 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ko; path = ko.lproj/BIP39Words.plist; sourceTree = "<group>"; };
 		AA9455662020D46E00B6ABB1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "src/Strings/zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		AA9455672020D46E00B6ABB1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hant"; path = "zh-Hant.lproj/BIP39Words.plist"; sourceTree = "<group>"; };
+		AA9455682020D91B00B6ABB1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B969D992D959B5B85A1BDD91 /* Pods-breadwalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breadwalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breadwalletUITests/Pods-breadwalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4800D2B9C627933093A52E3 /* Pods-breadwalletTests.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breadwalletTests.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-breadwalletTests/Pods-breadwalletTests.testnet.xcconfig"; sourceTree = "<group>"; };
 		C4ED1454C2B4DE0BAFD4D8FE /* Pods_breadwalletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breadwalletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2666,6 +2668,7 @@
 				CED486DD1F70A179007406D3 /* bread-frontend.tar */,
 				75A2A79A1DA5934300A983D8 /* Assets.xcassets */,
 				CE5E6C991EB9135000A476DB /* Icon.xcassets */,
+				AA9455682020D91B00B6ABB1 /* LaunchScreen.storyboard */,
 				75A2A79F1DA5934300A983D8 /* Info.plist */,
 				049B9B7E20104B65004EF1A1 /* Settings.bundle */,
 			);
@@ -3768,6 +3771,7 @@
 				2218BD791E8F6CBA0091D5E8 /* AssetBundles.plist in Resources */,
 				CEAA9EA41DC2FC700066731D /* CircularPro-Medium.otf in Resources */,
 				CEAA9E9E1DC2F90C0066731D /* CircularPro-Bold.otf in Resources */,
+				AA9455692020D91C00B6ABB1 /* LaunchScreen.storyboard in Resources */,
 				CED486DE1F70A179007406D3 /* bread-frontend.tar in Resources */,
 				75A2A79B1DA5934300A983D8 /* Assets.xcassets in Resources */,
 			);
