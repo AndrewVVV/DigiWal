@@ -1374,6 +1374,10 @@
 		A26AC9FA94AE1CA45B7A8ED5 /* Pods_breadwalletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breadwalletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA147C022020CD6D005244A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = src/Strings/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AA147C032020CE66005244A9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "src/Strings/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		AA2DC52A2025602F0067E900 /* ar-001 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-001"; path = "src/Strings/ar-001.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		AA2DC52B202561690067E900 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = src/Strings/id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA2DC52C202562230067E900 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "src/Strings/pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		AA2DC52D2025630C0067E900 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = src/Strings/vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AA34562C2020CBB600B2C462 /* tr-TR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "tr-TR"; path = "src/Strings/tr-TR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		AA85B7ED1FEAF84A008EB914 /* groestl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = groestl.c; sourceTree = "<group>"; };
 		AA85B7EE1FEAF84A008EB914 /* groestl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = groestl.h; sourceTree = "<group>"; };
@@ -3725,6 +3729,10 @@
 				it,
 				ko,
 				"zh-Hant",
+				"ar-001",
+				id,
+				"pt-BR",
+				vi,
 			);
 			mainGroup = 75A2A7871DA5934300A983D8;
 			productRefGroup = 75A2A7911DA5934300A983D8 /* Products */;
@@ -4671,6 +4679,10 @@
 				AA9455622020D45B00B6ABB1 /* it */,
 				AA9455642020D46200B6ABB1 /* ko */,
 				AA9455662020D46E00B6ABB1 /* zh-Hant */,
+				AA2DC52A2025602F0067E900 /* ar-001 */,
+				AA2DC52B202561690067E900 /* id */,
+				AA2DC52C202562230067E900 /* pt-BR */,
+				AA2DC52D2025630C0067E900 /* vi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
