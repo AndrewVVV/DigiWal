@@ -150,7 +150,7 @@ class ConfirmationViewController : UIViewController, ContentBoxPresenter {
         address.lineBreakMode = .byTruncatingMiddle
         switch feeType {
         case .regular:
-            processingTime.text = String(format: S.Confirmation.processingTime, "1.5")
+            processingTime.text = String(format: S.Confirmation.processingTime, S.FeeSelector.regularTime)
         case .economy:
             processingTime.text = String(format: S.Confirmation.processingTime, S.FeeSelector.economyTime)
         }
