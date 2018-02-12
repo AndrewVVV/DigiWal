@@ -437,7 +437,16 @@ class WalletManager : BRWalletListener, BRPeerManagerListener {
 
                 pk = pk + 1
                 sqlite3_bind_int(sql2, 1, pk)
-                sqlite3_bind_int(sql2, 2, Int32(bitPattern: b.pointee.height))
+				
+				let maxHeight:Int32	 = INT32_MAX
+				let height:Int32 = Int32(bitPattern: b.pointee.height)
+				if (height >= maxHeight) {
+					print("skipped block with overflowed block height")
+					continue
+				} else {
+					sqlite3_bind_int(sql2, 2, Int32(bitPattern: b.pointee.height))
+				}
+				
                 sqlite3_bind_int(sql2, 3, Int32(bitPattern: b.pointee.nonce))
                 sqlite3_bind_int(sql2, 4, Int32(bitPattern: b.pointee.target))
                 sqlite3_bind_int(sql2, 5, Int32(bitPattern: b.pointee.totalTx))
