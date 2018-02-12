@@ -1378,6 +1378,7 @@
 		AA2DC52B202561690067E900 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = src/Strings/id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AA2DC52C202562230067E900 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "src/Strings/pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		AA2DC52D2025630C0067E900 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = src/Strings/vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA2FE9392031FB3F00E13DA7 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = src/Strings/hi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AA34562C2020CBB600B2C462 /* tr-TR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "tr-TR"; path = "src/Strings/tr-TR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		AA3FBDB7202E00F6003F687E /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = src/Strings/th.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AA3FBDB8202E01B2003F687E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = src/Strings/uk.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -3738,6 +3739,7 @@
 				vi,
 				th,
 				uk,
+				hi,
 			);
 			mainGroup = 75A2A7871DA5934300A983D8;
 			productRefGroup = 75A2A7911DA5934300A983D8 /* Products */;
@@ -4690,6 +4692,7 @@
 				AA2DC52D2025630C0067E900 /* vi */,
 				AA3FBDB7202E00F6003F687E /* th */,
 				AA3FBDB8202E01B2003F687E /* uk */,
+				AA2FE9392031FB3F00E13DA7 /* hi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
