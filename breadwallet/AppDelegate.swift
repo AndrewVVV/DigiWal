@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let applicationController = ApplicationController()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        Buglife.shared().start(withAPIKey: "QHo8wnuboLCXBrc9WZhumQtt")
+		Buglife.shared().start(withAPIKey: "") // TODO: Replace me with the BugLife API Key
         let appearance = Buglife.shared().appearance
         appearance.tintColor = .white
         appearance.barTintColor = .blueGradientEnd
